@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "静态博客Jekyll"
+date:   2024-11-08 17:39:29 +0800
+categories: jekyll update
+---
+## 使用 Jekyll
+1. 安装 Jekyll
+    首先，你需要安装Ruby和Jekyll。如果你还没有安装Ruby，可以从Ruby官网下载并安装。然后，通过以下命令安装Jekyll：
+
+   ```bash
+   gem install jekyll bundler
+   ```
+
+2. 创建一个新的 Jekyll 站点在你的工作目录中创建一个新的Jekyll站点：
+
+   ```bash
+   jekyll new myblog
+   cd myblog
+   ```
+
+3. 添加 index.md 文件将你的index.md文件复制到myblog/_posts目录下。确保文件名以YYYY-MM-DD-title.md格式命名，例如2023-10-05-静态博客Jekyll.markdown
+
+4. 配置 _config.yml
+   打开myblog/_config.yml文件，确保以下设置正确：
+
+   ```yaml
+   title: 我的博客
+   baseurl: "" # 如果部署在子路径上，请填写子路径
+   url: "http://yourdomain.com" # 替换为你的域名
+   markdown: kramdown
+   theme: minima # 你可以选择其他主题
+   ```
+
+5. 运行 Jekyll 服务器
+   在项目根目录下运行以下命令启动本地服务器：
+
+
+   ```bash       
+   bundle exec jekyll serve
+   ```
+
+6. 访问http://localhost:4000查看你的博客文章页面。
