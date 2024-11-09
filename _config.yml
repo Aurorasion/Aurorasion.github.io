@@ -1,24 +1,24 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# 此配置文件用于影响整个博客、值的设置
+# 您应该设置一次，之后很少编辑。如果你发现
+# 你自己经常编辑这个文件，考虑使用 Jekyll 的数据文件
+# 针对需要经常更新的数据的功能。
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 由于技术原因，在使用
+# bundle exec jekyll serve "时，该文件不会自动重新加载。如果更改此文件，请重启服务器进程。
 #
-# If you need help with YAML syntax, here are some quick references for you:
+# 如果您需要有关 YAML 语法的帮助，这里有一些快速参考资料：
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# 站点设置
+# 这些用于个性化您的新网站。如果你查看 HTML 文件，
+# 您将看到通过 {{ site.title }}、{{ site.email }} 等访问它们。
+# 您可以创建任何您想要的自定义变量，并且它们将是可访问的
+# 通过 {{ site.myvariable }} 在模板中。
 
-title: Your awesome title
+title: 云鹤文档
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
